@@ -10,22 +10,24 @@ export const GifGrid = ({ category }) => {
 
   return (
     <>
-      <h3>{category}</h3>
-      {
-          isLoading && ( <h2>Cargando...</h2> )
-      }
-
-      <div className="card-grid">
-        { 
-          images.map( ( image ) => (
-            <GifItem 
-            key={image.id}
-            title={image.title}
-            url={image.url}
-            />
-          ))
+      <section className="section-card">
+        <h3>{category}</h3>
+        {
+            isLoading && ( <h2>Cargando...</h2> )
         }
-      </div>
+
+        <div className="card-grid">
+          { 
+            images.map( ( image ) => (
+              <GifItem 
+              key={image.id}
+              title={image.title}
+              url={image.url}
+              />
+            ))
+          }
+        </div>
+      </section>
     </>
   )
 }
