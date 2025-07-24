@@ -4,7 +4,7 @@ Una aplicación desarrollada en React que permite buscar y visualizar gifs anima
 
 ## 🌐 Demo en vivo
 
-👉 [Ver aplicación desplegada en Netlify](https://gifsapp-dev.netlify.app)
+👉 [Ver aplicación desplegada en Netlify](https://gifs-app-dev.netlify.app)
 
 
 ## 🚀 Instalación local
